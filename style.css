@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital,wght@1,500&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,800&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Slab:wght@400;500;600;900&family=Source+Code+Pro&family=Source+Sans+Pro:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(v1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 2;
+}
+nav {
+  display: flex;
+  background-color: black;
+  padding: 0 22px;
+}
+.item {
+  list-style: none;
+  /* background-color: rgb(212, 202, 202); */
+  padding: 3px 23px;
+}
+.item a {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 17px 10;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+}
+.item a:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.container {
+  font-family: "Playfair Display", serif;
+  height: 80vw;
+  background-color: white;
+  max-width: 45%;
+  padding: 46px;
+  margin: 12px auto;
+  color: black;
+}
+.container h1 {
+  text-align: center;
+}
+.container h1,
+h2 {
+  padding: 22px 0;
+  font-family: "EB Garamond", serif;
+}
+p {
+  font-family: "Playfair Display", serif;
+}
